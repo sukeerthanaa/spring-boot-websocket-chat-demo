@@ -6,9 +6,6 @@
 trigger:
 - master
 
-pool:
-  vmImage: ubuntu-default
-
 steps:
 - task: Maven@3
   inputs:
